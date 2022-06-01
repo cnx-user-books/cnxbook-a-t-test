@@ -1,0 +1,73 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Test for PreAlgebra</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55627</md:content-id>
+  <md:title>Test for PreAlgebra</md:title>
+  <md:abstract/>
+  <md:uuid>017e6b87-421e-4b25-af0f-92d48609a019</md:uuid>
+</metadata>
+
+<content><section id="fs-id1164722144228"><title>MO</title>
+<para id="eip-332"><title>Regular dash</title><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+</m:mover>
+</m:math></para><para id="eip-221"><title>bold dash</title><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mo mathvariant="bold">-</m:mo>
+</m:mover>
+</m:math></para><para id="eip-867"><title>subtraction dash</title><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mo>−</m:mo>
+</m:mover>
+</m:math></para><para id="eip-799"><title>en dash</title><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+</m:mover>
+</m:math></para><para id="eip-521"><title>em dash</title><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mo mathvariant="bold">—</m:mo>
+</m:mover>
+</m:math></para><para id="eip-534"><title>overbar </title><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math></para></section><section id="eip-292"><title>TEXT</title>
+<para id="fs-id1164724536742"><title>Regular dash</title><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mtext>-</m:mtext>
+</m:mover>
+</m:math></para><para id="fs-id1164727006743"><title>bold dash</title><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mtext mathvariant="bold">-</m:mtext>
+</m:mover>
+</m:math></para><para id="fs-id1164731761393"><title>subtraction dash</title><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mtext>−</m:mtext>
+</m:mover>
+</m:math></para><para id="fs-id1164723686415"><title>en dash</title><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mtext>–</m:mtext>
+</m:mover>
+</m:math></para><para id="fs-id1164722739858"><title>em dash</title><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mtext mathvariant="bold">—</m:mtext>
+</m:mover>
+</m:math></para><para id="fs-id1164722149045"><title>overbar </title><m:math>
+<m:mover>
+<m:mi>x</m:mi>
+<m:mtext>¯</m:mtext>
+</m:mover>
+</m:math></para></section></content>
+</document>

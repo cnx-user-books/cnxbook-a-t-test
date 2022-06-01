@@ -1,0 +1,1649 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Derived copy of Real Numbers: Algebra Essentials</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55624</md:content-id>
+  <md:title>Derived copy of Real Numbers: Algebra Essentials</md:title>
+  <md:abstract>In this section students will:
+<list>
+<item>Classify a real number as a natural, whole, integer, rational, or irrational number.</item>
+<item>Perform calculations using order of operations.</item>
+<item>Use the following properties of real numbers: commutative, associative, distributive, inverse, and identity.</item>
+<item>Evaluate algebraic expressions.</item>
+<item>Simplify algebraic expressions.</item>
+</list></md:abstract>
+  <md:uuid>8d1c0f0b-883a-45a0-b7f4-7e6f3bd7398f</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id2610870">It is often said that mathematics is the language of science. If this is true, then the language of mathematics is numbers. The earliest use of numbers occurred 100 centuries ago in the Middle East to count, or enumerate items. Farmers, cattlemen, and tradesmen used tokens, stones, or markers to signify a single quantity—a sheaf of grain, a head of livestock, or a fixed length of cloth, for example. Doing so made commerce possible, leading to improved communications and the spread of civilization.</para> 
+<para id="fs-id2597266">Three to four thousand years ago, Egyptians introduced fractions. They first used them to show reciprocals. Later, they used them to represent the amount when a quantity was divided into equal parts.</para>
+<para id="fs-id2811451">But what if there were no cattle to trade or an entire crop of grain was lost in a flood? How could someone indicate the existence of nothing? From earliest times, people had thought of a “base state” while counting and used various symbols to represent this null condition. However, it was not until about the fifth century A.D. in India that zero was added to the number system and used as a numeral in calculations.</para> 
+<para id="fs-id2558199">Clearly, there was also a need for numbers to represent loss or debt. In India, in the seventh century A.D., negative numbers were used as solutions to mathematical equations and commercial debts. The opposites of the counting numbers expanded the number system even further.</para>
+<para id="fs-id3044208">Because of the evolution of the number system, we can now perform complex calculations using these and other categories of real numbers. In this section, we will explore sets of numbers, calculations with different kinds of numbers, and the use of numbers in expressions.</para>
+
+<section id="fs-id2374993">
+<title>Classifying a Real Number</title>
+<para id="fs-id2172910">The numbers we use for counting, or enumerating items, are the <term>natural numbers</term>: 1, 2, 3, 4, 5, and so on. We describe them in set notation as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn>
+  </m:mrow> <m:mo>}</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>where the ellipsis (…) indicates that the numbers continue to infinity. The natural numbers are, of course, also called the <emphasis effect="italics">counting numbers</emphasis>. Any time we enumerate the members of a team, count the coins in a collection, or tally the trees in a grove, we are using the set of natural numbers. The set of <term>whole numbers</term> is the set of natural numbers plus zero:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn>
+  </m:mrow> <m:mo>}</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<para id="fs-id1729373">The set of <term>integers</term> adds the opposites of the natural numbers to the set of whole numbers:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mn>...</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>...</m:mn>
+  </m:mrow> <m:mo>}</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>It is useful to note that the set of integers is made up of three distinct subsets: negative integers, zero, and positive integers. In this sense, the positive integers are just the natural numbers. Another way to think about it is that the natural numbers are a subset of the integers.</para>
+
+<equation id="fs-id2459121" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mover>
+       <m:mrow>
+        <m:mover>
+         <m:mrow>
+          <m:mo>…</m:mo><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo></m:mrow>
+         <m:mrow/>
+        </m:mover>
+        </m:mrow>
+       <m:mrow>
+        <m:mtext>negative integers</m:mtext></m:mrow>
+      </m:mover>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mover>
+       <m:mrow>
+        <m:mover>
+         <m:mrow>
+          <m:mn>0</m:mn><m:mo>,</m:mo></m:mrow>
+         <m:mrow/>
+        </m:mover>
+        </m:mrow>
+       <m:mrow>
+        <m:mtext>zero</m:mtext></m:mrow>
+      </m:mover>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mover>
+       <m:mrow>
+        <m:mover>
+         <m:mrow>
+          <m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>⋯</m:mo></m:mrow>
+         <m:mrow/>
+        </m:mover>
+        </m:mrow>
+       <m:mrow>
+        <m:mtext>positive integers</m:mtext></m:mrow>
+      </m:mover>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   
+  </m:mtable></m:mrow>
+</m:math></equation><para id="fs-id3036458">The set of <term>rational numbers</term> is written as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mrow><m:mrow>
+    <m:mfrac>
+     <m:mi>m</m:mi>
+     <m:mi>n</m:mi>
+    </m:mfrac>
+    <m:mtext> </m:mtext>
+   </m:mrow><m:mo>|</m:mo></m:mrow><m:mi>m</m:mi><m:mtext> and </m:mtext><m:mi>n</m:mi><m:mtext> are integers and </m:mtext><m:mi>n</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn>
+  </m:mrow> <m:mo>}</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>Notice from the definition that rational numbers are fractions (or quotients) containing integers in both the numerator and the denominator, and the denominator is never 0. We can also see that every natural number, whole number, and integer is a rational number with a denominator of 1.</para>
+<para id="fs-id1841571">Because they are fractions, any rational number can also be expressed in decimal form. Any rational number can be represented as either:</para>
+	<list id="fs-id1598139" list-type="enumerated" number-style="arabic">
+<item>a terminating decimal:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mn>15</m:mn>
+   </m:mrow>
+   <m:mn>8</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>1.875</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>or</item>
+<item>a repeating decimal:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mfrac>
+   <m:mn>4</m:mn>
+   <m:mrow>
+    <m:mn>11</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.36363636</m:mn><m:mo>…</m:mo><m:mo>=</m:mo><m:mn>0.</m:mn><m:mover accent="true">
+   <m:mrow>
+    <m:mn>36</m:mn>
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+  
+ </m:mrow>
+</m:math>
+</item>
+</list>
+<para id="fs-id1334141">We use a line drawn over the repeating block of numbers instead of writing the group multiple times.</para>
+
+<example id="Example_01_01_01">
+<exercise id="fs-id1979448">
+<problem id="fs-id1067010">
+<title>Writing Integers as Rational Numbers</title>
+<para id="fs-id1550372">Write each of the following as a rational number.</para>
+<list id="fs-id2077076" list-type="enumerated" number-style="lower-alpha">
+<item>7</item>		
+<item>0</item>		
+<item>–8</item>
+</list>
+</problem>
+<solution id="fs-id1542524">
+<para id="fs-id2196956">Write a fraction with the integer in the numerator and 1 in the denominator.</para>
+<list id="fs-id1556475" list-type="enumerated" number-style="lower-alpha">
+<item><m:math>
+ <m:mrow>
+  <m:mn>7</m:mn><m:mo>=</m:mo><m:mfrac>
+   <m:mn>7</m:mn>
+   <m:mn>1</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>=</m:mo><m:mfrac>
+   <m:mn>0</m:mn>
+   <m:mn>1</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mn>−8</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mn>8</m:mn>
+   <m:mn>1</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+</list>
+</solution>
+
+</exercise>
+</example>
+
+<note id="fs-id1630610" class="precalculus try">
+<label>Try It</label>
+<exercise id="ti_01_01_01">
+<problem id="fs-id1734579"><para id="fs-id1458193">Write each of the following as a rational number.</para>
+<list id="fs-id1596373" list-type="enumerated" number-style="lower-alpha">
+<item>11</item>		
+<item>3</item>		
+<item>–4</item>
+</list>
+</problem>
+<solution id="fs-id1382457">
+<list id="fs-id1460065" list-type="enumerated" number-style="lower-alpha">
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>11</m:mn>
+   </m:mrow>
+   <m:mn>1</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>		
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>3</m:mn>
+   <m:mn>1</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>		
+<item><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mn>4</m:mn>
+   <m:mn>1</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+</list>
+</solution>
+</exercise>
+</note>
+
+<example id="Example_01_01_02">
+<exercise id="fs-id1574076"><problem id="fs-id1692024">
+<title>Identifying Rational Numbers</title>
+<para id="fs-id1685970">Write each of the following rational numbers as either a terminating or repeating decimal.</para>
+<list id="fs-id2293741" number-style="lower-alpha" list-type="enumerated">
+<item><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mn>5</m:mn>
+   <m:mn>7</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>15</m:mn>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>13</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>25</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+</list>
+</problem>
+<solution id="fs-id3210897">
+<para id="fs-id1385693">Write each fraction as a decimal by dividing the numerator by the denominator.</para>
+<list id="fs-id2579486" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mn>5</m:mn>
+   <m:mn>7</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>−0.</m:mn><m:mover accent="true">
+    <m:mn>714285</m:mn>
+   <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>a repeating decimal</item>
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>15</m:mn>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>(or 3.0), a terminating decimal</item>
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>13</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>25</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.52</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>
+a terminating decimal</item>
+</list>
+<para id="eip-id1167001770700">tumTEST           <m:math> <m:mrow><m:mn>-0</m:mn><m:mo>.</m:mo></m:mrow><m:mrow><m:mover accent="true">
+   <m:mrow>
+    <m:mn>714285</m:mn>
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover></m:mrow></m:math>
+
+MORE TEST
+
+<m:math> <m:mrow><m:mn>-0</m:mn><m:mo>.</m:mo></m:mrow><m:mover accent="true">
+   <m:mrow>
+    <m:mn>714285</m:mn>
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover></m:math>
+
+EVEN MORE TEST
+
+<m:math> <m:mrow><m:mn>-0</m:mn><m:mo>.</m:mo></m:mrow><m:mover>
+   <m:mrow>
+    <m:mn>714285</m:mn>
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover></m:math>
+test test test
+<m:math> <m:mover>
+   <m:mrow>
+    <m:mn>714285</m:mn>
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover></m:math>
+
+test test tests pwm math
+<m:math><m:mn>-0.</m:mn></m:math><m:math><m:mover>
+   <m:mrow>
+    <m:mn>714285</m:mn>
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover></m:math> 
+
+</para></solution>
+</exercise><para id="eip-347">. in op/mover in row.
+<m:math> <m:mn>-0</m:mn><m:mo>.</m:mo><m:mover accent="true">
+   <m:mrow>
+    <m:mn>714285</m:mn>
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover></m:math>
+
+<newline/>
+. in op everything in a row.
+<m:math> <m:mrow><m:mn>-0</m:mn></m:mrow><m:mrow><m:mo>.</m:mo></m:mrow><m:mrow><m:mover accent="true">
+   <m:mrow>
+    <m:mn>714285</m:mn>
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover></m:mrow></m:math>
+
+<newline/>NOTHING IN A ROW
+<m:math><m:mn>-0</m:mn><m:mo>.</m:mo><m:mover accent="true">
+  
+    <m:mn>714285</m:mn>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover></m:math>
+
+<newline/>everything but mover in a row
+<m:math><m:mrow><m:mn>-0</m:mn><m:mo>.</m:mo></m:mrow><m:mover accent="true">
+  
+    <m:mn>714285</m:mn>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover></m:math></para><para id="eip-878">EM DASH <m:math> <m:mn>-0</m:mn><m:mo>.</m:mo><m:mover accent="true">
+    <m:mn>714285</m:mn>
+   <m:mo stretchy="true">—</m:mo>
+  </m:mover></m:math>
+
+<newline/>
+UNDERLINE
+
+<m:math> <m:mn>-0</m:mn><m:mo>.</m:mo><m:mover accent="true">
+    <m:mn>714285</m:mn>
+   <m:mo stretchy="true">_</m:mo>
+  </m:mover></m:math>
+
+<newline/>
+
+EACH NUMBER GETS IT'S OWN OVERBAR
+<m:math> <m:mn>-0</m:mn><m:mo>.</m:mo><m:mover accent="true">
+    <m:mn>7</m:mn>
+   <m:mo stretchy="true">¯</m:mo></m:mover><m:mover accent="true">
+    <m:mn>1</m:mn>
+   <m:mo stretchy="true">¯</m:mo></m:mover><m:mover accent="true">
+    <m:mn>4</m:mn>
+   <m:mo stretchy="true">¯</m:mo></m:mover><m:mover accent="true">
+    <m:mn>2</m:mn>
+   <m:mo stretchy="true">¯</m:mo></m:mover><m:mover accent="true">
+    <m:mn>8</m:mn>
+   <m:mo stretchy="true">¯</m:mo></m:mover><m:mover accent="true">
+    <m:mn>5</m:mn>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover></m:math>
+
+<newline/>
+DASH
+
+<m:math> <m:mn>-0</m:mn><m:mo>.</m:mo><m:mover accent="true">
+    <m:mn>714285</m:mn>
+   <m:mo stretchy="true">-</m:mo>
+  </m:mover></m:math>
+
+<newline/>
+overbar in text form
+
+<m:math> <m:mn>-0</m:mn><m:mo>.</m:mo><m:mover accent="true">
+    <m:mn>714285</m:mn>
+   <m:mtext>¯¯¯¯¯¯</m:mtext>
+  </m:mover></m:math>
+
+<newline/>
+emdash things in text
+
+<m:math> <m:mn>-0.</m:mn><m:mover accent="true">
+    <m:mn>714285</m:mn>
+   <m:mtext>———</m:mtext>
+  </m:mover></m:math></para><para id="eip-515">EACH NUMBER GETS IT'S OWN DASH
+<m:math> <m:mn>-0</m:mn><m:mo>.</m:mo><m:mover accent="true">
+    <m:mn>7</m:mn>
+   <m:mo stretchy="true">-</m:mo></m:mover><m:mover accent="true">
+    <m:mn>1</m:mn>
+   <m:mo stretchy="true">-</m:mo></m:mover><m:mover accent="true">
+    <m:mn>4</m:mn>
+   <m:mo stretchy="true">-</m:mo></m:mover><m:mover accent="true">
+    <m:mn>2</m:mn>
+   <m:mo stretchy="true">-</m:mo></m:mover><m:mover accent="true">
+    <m:mn>8</m:mn>
+   <m:mo stretchy="true">-</m:mo></m:mover><m:mover accent="true">
+    <m:mn>5</m:mn>
+   <m:mo stretchy="true">-</m:mo>
+  </m:mover></m:math>
+
+<newline/>
+
+
+<newline/>
+
+EACH NUMBER GETS IT'S OWN UNDERLINE
+<m:math> <m:mn>-0.</m:mn><m:mover accent="true">
+    <m:mn>7</m:mn>
+   <m:mo stretchy="true">_</m:mo></m:mover><m:mover accent="true">
+    <m:mn>1</m:mn>
+   <m:mo stretchy="true">_</m:mo></m:mover><m:mover accent="true">
+    <m:mn>4</m:mn>
+   <m:mo stretchy="true">_</m:mo></m:mover><m:mover accent="true">
+    <m:mn>2</m:mn>
+   <m:mo stretchy="true">_</m:mo></m:mover><m:mover accent="true">
+    <m:mn>8</m:mn>
+   <m:mo stretchy="true">_</m:mo></m:mover><m:mover accent="true">
+    <m:mn>5</m:mn>
+   <m:mo stretchy="true">_</m:mo>
+  </m:mover></m:math></para></example>
+
+<note id="fs-id2096882" class="precalculus try">
+<label>Try It</label>
+<exercise id="ti_01_01_02">
+<problem id="fs-id1966861"><para id="fs-id2201694">Write each of the following rational numbers as either a terminating or repeating decimal.</para>
+<list id="fs-id1691329" list-type="enumerated" number-style="lower-alpha">
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>68</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>17</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>8</m:mn>
+   <m:mrow>
+    <m:mn>13</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>17</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>20</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+</list>
+</problem>
+<solution id="fs-id1902205">
+<list id="fs-id2146703" number-style="lower-alpha" list-type="enumerated">
+<item>4 (or 4.0), terminating;</item> 
+<item><m:math>
+ <m:mrow>
+  <m:mn>0.</m:mn><m:mover accent="true">
+   <m:mrow>
+    <m:mn>615384</m:mn>
+   </m:mrow>
+   <m:mo stretchy="true">¯</m:mo>
+  </m:mover>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>repeating;</item> 
+<item>–0.85, terminating</item>
+</list>
+</solution>
+</exercise>
+</note>
+
+<section id="fs-id1598961"><title>Real Numbers</title><para id="fs-id1493774">Given any number <emphasis effect="italics">n</emphasis>, we know that <emphasis effect="italics">n</emphasis> is either rational or irrational. It cannot be both. The sets of rational and irrational numbers together make up the set of <term>real numbers</term>. As we saw with integers, the real numbers can be divided into three subsets: negative real numbers, zero, and positive real numbers. Each subset includes fractions, decimals, and irrational numbers according to their algebraic sign (+ or –). Zero is considered neither positive nor negative.</para>
+<para id="fs-id2057634">The real numbers can be visualized on a horizontal number line with an arbitrary point chosen as 0, with negative numbers to the left of 0 and positive numbers to the right of 0. A fixed unit distance is then used to mark off each integer (or other basic value) on either side of 0. Any real number corresponds to a unique position on the number line.The converse is also true: Each location on the number line corresponds to exactly one real number. This is known as a one-to-one correspondence. We refer to this as the <term>real number line</term> as shown in <link target-id="Figure_01_01_001"/><emphasis>.</emphasis></para>
+<figure id="Figure_01_01_001" class="medium">
+<media id="fs-id1436073" alt="A number line that is marked from negative five to five">
+<image mime-type="image/jpg" src="../../media/CNX_CAT_Figure_01_01_002.jpg"/>
+</media>
+<caption>The real number line</caption>
+</figure>
+
+<example id="Example_01_01_04">
+<exercise id="fs-id1391400">
+<problem id="fs-id1451809">
+<title>Classifying Real Numbers </title>
+<para id="fs-id2482937">Classify each number as either positive or negative and as either rational or irrational. Does the number lie to the left or the right of 0 on the number line?</para>
+<list id="fs-id2182837" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mn>5</m:mn>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mn>289</m:mn>
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mn>−6</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mn>0.615384615384</m:mn><m:mo>…</m:mo>
+ </m:mrow>
+</m:math>
+</item>
+</list></problem>
+<solution id="fs-id2112139">
+<list id="fs-id1613107" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is negative and rational. It lies to the left of 0 on the number line.</item>
+<item><m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mn>5</m:mn>
+  </m:msqrt>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is positive and irrational. It lies to the right of 0.</item>
+<item><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mn>289</m:mn>
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:msqrt>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mn>17</m:mn>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>=</m:mo><m:mn>−17</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is negative and rational. It lies to the left of 0.</item>
+<item><m:math>
+ <m:mrow>
+  <m:mn>−6</m:mn><m:mi>π</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is negative and irrational. It lies to the left of 0.</item>
+<item><m:math>
+ <m:mrow>
+  <m:mn>0.615384615384</m:mn><m:mo>…</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is a repeating decimal so it is rational and positive. It lies to the right of 0.</item>
+</list></solution>
+</exercise>
+</example>
+
+<note id="fs-id2489621" class="precalculus try">
+<label>Try It</label>
+<exercise id="ti_01_01_05">
+<problem id="fs-id2382387"><para id="fs-id1552833">Classify each number as either positive or negative and as either rational or irrational. Does the number lie to the left or the right of 0 on the number line?</para>
+<list id="fs-id1901717" list-type="enumerated" number-style="lower-alpha">
+<item><m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mn>73</m:mn>
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mn>−11.411411411</m:mn><m:mo>…</m:mo>
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>47</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>19</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>5</m:mn>
+    </m:msqrt>
+    
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mn>6.210735</m:mn>
+ </m:mrow>
+</m:math>
+</item>
+</list>
+</problem>
+<solution id="fs-id1535359">
+<list id="fs-id1692671" number-style="lower-alpha" list-type="enumerated">
+<item>positive, irrational; right</item> 
+<item>negative, rational; left</item> 
+<item>positive, rational; right</item> 
+<item>negative, irrational; left</item> 
+<item>positive, rational; right</item>
+</list>
+</solution>
+</exercise>
+</note>
+</section></section>
+<section id="fs-id2783853">
+<title>Using Properties of Real Numbers</title>
+<para id="fs-id1979200">For some activities we perform, the order of certain operations does not matter, but the order of other operations does. For example, it does not make a difference if we put on the right shoe before the left or vice-versa. However, it does matter whether we put on shoes or socks first. The same thing is true for operations in mathematics.</para>
+
+</section>
+
+<section id="fs-id2691543" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1768859" list-type="bulleted">
+<item>Rational numbers may be written as fractions or terminating or repeating decimals. See <link target-id="Example_01_01_01"/> and <link target-id="Example_01_01_02"/>.</item>
+<item>Determine whether a number is rational or irrational by writing it as a decimal. See <link target-id="Example_01_01_03"/>.</item>
+<item>The rational numbers and irrational numbers make up the set of real numbers. See <link target-id="Example_01_01_04"/>. A number can be classified as natural, whole, integer, rational, or irrational. See <link target-id="Example_01_01_05"/>.</item>
+<item>The order of operations is used to evaluate expressions. See <link target-id="Example_01_01_06"/>.</item>
+<item>The real numbers under the operations of addition and multiplication obey basic rules, known as the properties of real numbers. These are the commutative properties, the associative properties, the distributive property, the identity properties, and the inverse properties. See <link target-id="Example_01_01_07"/>.</item>
+<item>Algebraic expressions are composed of constants and variables that are combined using addition, subtraction, multiplication, and division. See <link target-id="Example_01_01_08"/>. They take on a numerical value when evaluated by replacing variables with constants. See <link target-id="Example_01_01_09"/>, <link target-id="Example_01_01_10"/>, and <link target-id="Example_01_01_12"/></item>
+<item>Formulas are equations in which one quantity is represented in terms of other quantities. They may be simplified or evaluated as any mathematical expression. See <link target-id="Example_01_01_11"/> and <link target-id="Example_01_01_13"/>.</item>
+</list>
+</section>
+<section id="fs-id3300486" class="section-exercises">
+<section id="fs-id2542028">
+<title>Verbal</title>
+<exercise id="fs-id2542033"><problem id="fs-id2542034"><para id="fs-id2811289">Is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msqrt>
+   <m:mn>2</m:mn>
+  </m:msqrt>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>an example of a rational terminating, rational repeating, or irrational number? Tell why it fits that category.</para></problem>
+<solution id="fs-id1473934"><para id="fs-id1473935"> irrational number. The square root of two does not terminate, and it does not repeat a pattern. It cannot be written as a quotient of two integers, so it is irrational. </para></solution></exercise>
+<exercise id="fs-id1433666"><problem id="fs-id1433667"><para id="fs-id1433668">What is the order of operations? What acronym is used to describe the order of operations, and what does it stand for?</para></problem></exercise>
+
+<exercise id="fs-id2510664"><problem id="fs-id2510665"><para id="fs-id2510666">What do the Associative Properties allow us to do when following the order of operations? Explain your answer.</para></problem>
+<solution id="fs-id2510671"><para id="fs-id1571749"> The Associative Properties state that the sum or product of multiple numbers can be grouped differently without affecting the result. This is because the same operation is performed (either addition or subtraction), so the terms can be re-ordered. </para></solution></exercise>
+
+</section>
+<section id="fs-id1571756">
+<title>Numeric</title>
+<para id="fs-id2521060">For the following exercises, simplify the given expression.</para>
+<exercise id="fs-id2521063"><problem id="fs-id2521064"><para id="fs-id1728836"><m:math>
+ <m:mrow>
+  <m:mn>10</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2448113"><problem id="fs-id2448114"><para id="fs-id2448115"><m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>81</m:mn><m:mo>÷</m:mo><m:msup>
+     <m:mn>3</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1388088"><para id="fs-id1388089"><m:math>
+ <m:mrow>
+  <m:mn>−6</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id3665280"><problem id="fs-id3665281"><para id="fs-id3665282"><m:math>
+ <m:mrow>
+  <m:mn>18</m:mn><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>6</m:mn><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow>
+    <m:mo>)</m:mo></m:mrow></m:mrow>
+   <m:mn>3</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2054506"><problem id="fs-id2054507"><para id="fs-id2054508"><m:math>
+ <m:mrow>
+  <m:mn>−2</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>[</m:mo> <m:mrow>
+     <m:mn>16</m:mn><m:mo>÷</m:mo><m:msup>
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mn>8</m:mn><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+       <m:mo>)</m:mo></m:mrow></m:mrow>
+      <m:mn>2</m:mn>
+     </m:msup>
+     </m:mrow> <m:mo>]</m:mo></m:mrow></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math></para></problem>
+<solution id="fs-id2584630"><para id="fs-id2584631"><m:math>
+ <m:mrow>
+  <m:mn>−2</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise> 
+<exercise id="fs-id1607809"><problem id="fs-id1460495"><para id="fs-id1460496"><m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2444193"><problem id="fs-id2444194"><para id="fs-id2444195"><m:math>
+ <m:mrow>
+  <m:mn>3</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1601063"><para id="fs-id1601064"><m:math>
+ <m:mrow>
+  <m:mn>−9</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise> 
+<exercise id="fs-id3235427"><problem id="fs-id3235428"><para id="fs-id3235429"><m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>10</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id1601248"><problem id="fs-id1601249"><para id="fs-id1601250"><m:math>
+ <m:mrow>
+  <m:mn>12</m:mn><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>36</m:mn><m:mo>÷</m:mo><m:mn>9</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>6</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1483878"><para id="fs-id2555788">9</para></solution></exercise>
+<exercise id="fs-id2555791"><problem id="fs-id2555792"><para id="fs-id2555793"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>4</m:mn><m:mo>+</m:mo><m:mn>5</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>÷</m:mo><m:mn>3</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id1500556"><problem id="fs-id1500557"><para id="fs-id1500558"><m:math>
+ <m:mrow>
+  <m:mn>3</m:mn><m:mo>−</m:mo><m:mn>12</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>19</m:mn></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2027956"><para id="fs-id2027958">4</para></solution></exercise>
+<exercise id="fs-id1791590"><problem id="fs-id1791591"><para id="fs-id1791592"><m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn><m:mo>÷</m:mo><m:mn>4</m:mn></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2396900"><problem id="fs-id2396901"><para id="fs-id2396902"><m:math>
+ <m:mrow>
+  <m:mn>5</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>6</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1452727"><para id="fs-id1452728">4</para></solution></exercise>
+<exercise id="fs-id1450507"><problem id="fs-id1450508"><para id="fs-id1450509"><m:math>
+ <m:mrow>
+  <m:mn>9</m:mn><m:mo>−</m:mo><m:mn>18</m:mn><m:mo>÷</m:mo><m:msup>
+   <m:mn>3</m:mn>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2520962"><problem id="fs-id2520963"><para id="fs-id2520964"><m:math>
+ <m:mrow>
+  <m:mn>14</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>÷</m:mo><m:mn>7</m:mn><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id3166124"><para id="fs-id3166125">0</para></solution></exercise>
+<exercise id="fs-id1368488"><problem id="fs-id1368489"><para id="fs-id1368490"><m:math>
+ <m:mrow>
+  <m:mn>9</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id1619048"><problem id="fs-id1619049"><para id="fs-id1619050"><m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2616437"><para id="fs-id2616438">9</para></solution></exercise>
+<exercise id="fs-id1620842"><problem id="fs-id1620843"><para id="fs-id1620844"><m:math>
+ <m:mrow>
+  <m:mn>64</m:mn><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>8</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2995850"><problem id="fs-id2995851"><para id="fs-id2995852"><m:math>
+ <m:mrow>
+  <m:mn>9</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mn>2</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2059791"><para id="fs-id1859161">25</para></solution></exercise>
+<exercise id="fs-id1859164"><problem id="fs-id1859165"><para id="fs-id1859166"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>12</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn></m:mrow>
+    <m:mo>)</m:mo></m:mrow></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id1433630"><problem id="fs-id1433631"><para id="fs-id1433632"><m:math>
+ <m:mrow>
+  <m:mn>25</m:mn><m:mo>÷</m:mo><m:msup>
+   <m:mn>5</m:mn>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>7</m:mn></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2169664"><para id="fs-id1442482"><m:math>
+ <m:mrow>
+  <m:mn>−6</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2158696"><problem id="fs-id2158697"><para id="fs-id2158698"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>15</m:mn><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id1673686"><problem id="fs-id1673687"><para id="fs-id1673688"><m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>9</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math></para></problem>
+<solution id="fs-id1737155"><para id="fs-id1737156">17</para></solution></exercise>
+<exercise id="fs-id2555535"><problem id="fs-id2555536"><para id="fs-id2555538"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mn>4</m:mn>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>25</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2708694"><problem id="fs-id2708695"><para id="fs-id2708696"><m:math>
+ <m:mrow>
+  <m:mn>12</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mn>6</m:mn></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2135190"><para id="fs-id2135191">4</para></solution></exercise>
+
+</section>
+<section id="fs-id1373736">
+<title>Algebraic</title>
+<para id="fs-id1373741">For the following exercises, solve for the variable.</para>
+<exercise id="fs-id3349803"><problem id="fs-id3349804"><para id="fs-id3349805"><m:math>
+ <m:mrow>
+  <m:mn>8</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>64</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2248088"><problem id="fs-id2248090"><para id="fs-id2248091"><m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>y</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1673607"><para id="fs-id1673608"><m:math>
+ <m:mrow>
+  <m:mn>−4</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1634685"><problem id="fs-id1634686"><para id="fs-id1634687"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>18</m:mn><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow>
+</m:math></para></problem></exercise> 
+<exercise id="fs-id1610297"><problem id="fs-id1610298"><para id="fs-id1610299"><m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>36</m:mn></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1459983"><para id="fs-id1459984"><m:math>
+ <m:mrow>
+  <m:mn>−6</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2183439"><problem id="fs-id2183440"><para id="fs-id2183441"><m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mi>y</m:mi><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>7</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow>
+    <m:mo>)</m:mo></m:mrow></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mn>−200</m:mn></m:mrow>
+</m:math></para></problem></exercise> 
+<exercise id="fs-id1442438"><problem id="fs-id1442439"><para id="fs-id1442440"><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>x</m:mi></m:mrow>
+    <m:mo>)</m:mo></m:mrow></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow>
+</m:math></para></problem>
+<solution id="fs-id1703960"><para id="fs-id1673356"><m:math>
+ <m:mrow>
+  <m:mo>±</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2570388"><problem id="fs-id2570389"><para id="fs-id2570390"><m:math>
+ <m:mrow>
+  <m:mn>8</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>15</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2714429"><problem id="fs-id2714430"><para id="fs-id2714432"><m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>36</m:mn></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2661198"><para id="fs-id1453899">2</para></solution></exercise>
+<exercise id="fs-id1453902"><problem id="fs-id1453903"><para id="fs-id1453904"><m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id1485040"><problem id="fs-id1485041"><para id="fs-id2444170"><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>8</m:mn><m:mi>w</m:mi><m:mo>−</m:mo><m:msup>
+     <m:mn>4</m:mn>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2380946"><para id="fs-id2380948">2</para></solution></exercise>
+ 
+<para id="fs-id1734699">For the following exercises, simplify the expression.</para>
+<exercise id="fs-id1734702"><problem id="fs-id1734703"><para id="fs-id1734704"><m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>13</m:mn><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2113191"><problem id="fs-id2113192"><para id="fs-id2113194"><m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mn>4</m:mn>
+    <m:mo>)</m:mo></m:mrow></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2983287"><para id="fs-id2983288"><m:math>
+ <m:mrow>
+  <m:mn>−14</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+</m:math></para></solution></exercise>
+<exercise id="fs-id3185006"><problem id="fs-id3185007"><para id="fs-id2394855"><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>a</m:mi>
+   <m:mrow>
+    <m:msup>
+     <m:mn>2</m:mn>
+     <m:mn>3</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>64</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>12</m:mn><m:mi>a</m:mi><m:mo>÷</m:mo><m:mn>6</m:mn></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2107133"><problem id="fs-id2107134"><para id="fs-id2107135"><m:math>
+ <m:mrow>
+  <m:mn>8</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mn>3</m:mn>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2363656"><para id="fs-id2363657"><m:math>
+ <m:mrow>
+  <m:mn>−4</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+</m:math></para></solution></exercise>
+<exercise id="fs-id2444084"><problem id="fs-id3260784"><para id="fs-id3260785"><m:math>
+ <m:mrow>
+  <m:mn>5</m:mn><m:mi>l</m:mi><m:mo>÷</m:mo><m:mn>3</m:mn><m:mi>l</m:mi><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>9</m:mn><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2194512"><problem id="fs-id2194513"><para id="fs-id2988885"><m:math>
+ <m:mrow>
+  <m:mn>7</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mi>z</m:mi><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:msup>
+   <m:mn>6</m:mn>
+   <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1908491"><para id="fs-id2365286"><m:math>
+ <m:mrow>
+  <m:mn>43</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2619567"><problem id="fs-id2619568"><para id="fs-id2619569"><m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>18</m:mn><m:mi>x</m:mi><m:mo>÷</m:mo><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id1458150"><problem id="fs-id1458151"><para id="fs-id1458152"><m:math>
+ <m:mrow>
+  <m:mn>9</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>27</m:mn></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2278382"><para id="fs-id2278383"><m:math>
+ <m:mrow>
+  <m:mn>9</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>45</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1443223"><problem id="fs-id1443224"><para id="fs-id1443225"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>9</m:mn>
+     <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mi>t</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id1443990"><problem id="fs-id1443991"><para id="fs-id1443992"><m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mn>6</m:mn><m:mi>b</m:mi></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2555552"><para id="fs-id2555553"><m:math>
+ <m:mrow>
+  <m:mn>−6</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2771916"><problem id="fs-id2771917"><para id="fs-id2771918"><m:math>
+ <m:mrow>
+  <m:mn>18</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>y</m:mi></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id3283284"><problem id="fs-id1917673"><para id="fs-id1917674"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>4</m:mn>
+       <m:mn>9</m:mn>
+      </m:mfrac>
+      </m:mrow>
+    <m:mo>)</m:mo></m:mrow></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mtext> </m:mtext><m:mo>×</m:mo><m:mtext> </m:mtext><m:mn>27</m:mn><m:mi>x</m:mi></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2750494"><para id="fs-id2750495"><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>16</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2980532"><problem id="fs-id2980533"><para id="fs-id2980534"><m:math>
+ <m:mrow>
+  <m:mn>8</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mo>−</m:mo><m:mi>m</m:mi></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>1</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>8</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem></exercise> 
+<exercise id="fs-id2193704"><problem id="fs-id2193705"><para id="fs-id2193706"><m:math>
+ <m:mrow>
+  <m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1427013"><para id="fs-id2515354"><m:math>
+ <m:mrow>
+  <m:mn>9</m:mn><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2825015"><problem id="fs-id2825016"><para id="fs-id2825017"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mn>5</m:mn>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>x</m:mi></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem></exercise> 
+</section>
+<section id="fs-id2098225"><title>Real-World Applications</title><para id="fs-id1485257">For the following exercises, consider this scenario: Fred earns $40 mowing lawns. He spends $10 on mp3s, puts half of what is left in a savings account, and gets another $5 for washing his neighbor’s car.</para> 
+<exercise id="fs-id1485264"><problem id="fs-id2404926"><para id="fs-id2404927">Write the expression that represents the number of dollars Fred keeps (and does not put in his savings account). Remember the order of operations.</para></problem>
+<solution id="fs-id2404932"><para id="fs-id2404933"><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>40</m:mn><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="eip-id1167336272625">
+<problem id="eip-id1167336272627">
+<para id="fs-id2658139">How much money does Fred keep?</para>
+</problem>
+</exercise>
+
+<para id="eip-52">For the following exercises, solve the given problem.</para><exercise id="fs-id2658142"><problem id="fs-id1540914"><para id="fs-id1540915">According to the U.S. Mint, the diameter of a quarter is 0.955 inches. The circumference of the quarter would be the diameter multiplied by<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>π</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>Is the circumference of a quarter a whole number, a rational number, or an irrational number?</para></problem>
+<solution id="fs-id1690220"><para id="fs-id1690221">irrational number</para></solution></exercise>
+<exercise id="fs-id2483553"><problem id="fs-id2483554"><para id="fs-id2483555">Jessica and her roommate, Adriana, have decided to share a change jar for joint expenses. Jessica put her loose change in the jar first, and then Adriana put her change in the jar. We know that it does not matter in which order the change was added to the jar. What property of addition describes this fact?</para></problem></exercise>
+<para id="fs-id3615404">For the following exercises, consider this scenario: There is a mound of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>pounds of gravel in a quarry. Throughout the day, 400 pounds of gravel is added to the mound. Two orders of 600 pounds are sold and the gravel is removed from the mound. At the end of the day, the mound has 1,200 pounds of gravel.</para>
+<exercise id="fs-id1842419"><problem id="fs-id1842420"><para id="fs-id1842421">Write the equation that describes the situation.</para></problem>
+<solution id="fs-id1426937"><para id="fs-id1453382"><m:math>
+ <m:mrow>
+  <m:mi>g</m:mi><m:mo>+</m:mo><m:mn>400</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>600</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1200</m:mn></m:mrow>
+</m:math>
+</para></solution> </exercise>
+<exercise id="fs-id1596547"><problem id="fs-id1596548"><para id="fs-id1596549">Solve for <emphasis effect="italics">g</emphasis>.</para></problem></exercise> 
+<para id="eip-373">For the following exercise, solve the given problem.</para><exercise id="fs-id1276001"><problem id="fs-id1276002"><para id="fs-id1276003">Ramon runs the marketing department at his company. His department gets a budget every year, and every year, he must spend the entire budget without going over. If he spends less than the budget, then his department gets a smaller budget the following year. At the beginning of this year, Ramon got $2.5 million for the annual marketing budget. He must spend the budget such that<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>2,500,000</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>What property of addition tells us what the value of <emphasis effect="italics">x</emphasis> must be?</para></problem>
+<solution id="fs-id3581440"><para id="fs-id3581441"> inverse property of addition</para></solution>
+</exercise>
+</section><section id="fs-id2178453">
+<title>Technology</title>
+<para id="fs-id2460118">For the following exercises, use a graphing calculator to solve for <emphasis effect="italics">x</emphasis>. Round the answers to the nearest hundredth.</para>
+<exercise id="fs-id1703228"><problem id="fs-id1703229"><para id="fs-id1703230"><m:math>
+ <m:mrow>
+  <m:mn>0.5</m:mn><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>12.3</m:mn></m:mrow>
+    <m:mo>)</m:mo></m:mrow></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>48</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>3</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1315170"><problem id="fs-id1315171"><para id="fs-id1315172"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>0.25</m:mn><m:mo>−</m:mo><m:mn>0.75</m:mn></m:mrow>
+    <m:mo>)</m:mo></m:mrow></m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7.2</m:mn><m:mo>=</m:mo><m:mn>9.9</m:mn></m:mrow>
+</m:math>
+</para></problem> 
+<solution id="fs-id1720803"><para id="fs-id1720804"> 68.4</para></solution></exercise>
+
+</section>
+<section id="fs-id1720808">
+<title>Extensions</title>
+
+<exercise id="fs-id1523458"><problem id="fs-id1523459"><para id="fs-id1523460">If a whole number is not a natural number, what must the number be?</para></problem></exercise>
+<exercise id="fs-id1454051"><problem id="fs-id1454052"><para id="fs-id1454053">Determine whether the statement is true or false: The multiplicative inverse of a rational number is also rational.</para></problem> 
+<solution id="fs-id1454057"><para id="fs-id2806507"> true</para></solution></exercise>
+<exercise id="fs-id2806511"><problem id="fs-id2806512"><para id="fs-id2806513">Determine whether the statement is true or false: The product of a rational and irrational number is always irrational.</para></problem></exercise> 
+<exercise id="fs-id2538076"><problem id="fs-id2538077"><para id="fs-id2538078">Determine whether the simplified expression is rational or irrational:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msqrt>
+   <m:mrow>
+    <m:mn>−18</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo>
+     <m:mn>5</m:mn>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>−1</m:mn></m:mrow>
+    <m:mo>)</m:mo></m:mrow></m:mrow>
+  </m:msqrt>
+  <m:mo>.</m:mo></m:mrow>
+</m:math></para></problem>
+<solution id="fs-id2608647"><para id="fs-id1440420"> irrational</para></solution></exercise>
+<exercise id="fs-id1440424"><problem id="fs-id1440425"><para id="fs-id1440426">Determine whether the simplified expression is rational or irrational:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msqrt>
+   <m:mrow>
+    <m:mn>−16</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo>
+     <m:mn>5</m:mn>
+    <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow>
+  </m:msqrt>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1979146"><problem id="fs-id2608456"><para id="fs-id2608457">The division of two whole numbers will always result in what type of number?</para></problem>
+<solution id="fs-id2608460"><para id="fs-id2608461"> rational</para></solution></exercise>
+<exercise id="fs-id2053806"><problem id="fs-id2053807"><para id="fs-id2053808">What property of real numbers would simplify the following expression:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>?</m:mo></m:mrow>
+</m:math>
+</para></problem></exercise>
+ </section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id3164096"><term>algebraic expression</term><meaning id="fs-id3164099">	constants and variables combined using addition, subtraction, multiplication, and division</meaning></definition>
+<definition id="fs-id3164102"><term>associative property of addition</term><meaning id="fs-id1594977">	 the sum of three numbers may be grouped differently without affecting the result; in symbols,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>c</m:mi>
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id3363648"><term>associative property of multiplication</term><meaning id="fs-id3363651"> 	the product of three numbers may be grouped differently without affecting the result; in symbols,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>b</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>b</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>⋅</m:mo><m:mi>c</m:mi>
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id3257246"><term>base</term><meaning id="fs-id3257249"> in exponential notation, the expression that is being multiplied </meaning></definition>
+<definition id="fs-id3257252"><term>commutative property of addition</term><meaning id="fs-id2476452">	two numbers may be added in either order without affecting the result; in symbols,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi>
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id1487980"><term>commutative property of multiplication</term><meaning id="fs-id1487984">	two numbers may be multiplied in any order without affecting the result; in symbols,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>⋅</m:mo><m:mi>a</m:mi>
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id1710365"><term>constant</term><meaning id="fs-id1710369">	a quantity that does not change value</meaning></definition>
+<definition id="fs-id1710372"><term>distributive property</term><meaning id="fs-id2178314">	the product of a factor times a sum is the sum of the factor times each term in the sum; in symbols,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi>
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id1703088"><term>equation</term><meaning id="fs-id1703091">	a mathematical statement indicating that two expressions are equal</meaning></definition>
+<definition id="fs-id2561696"><term>exponent</term><meaning id="fs-id2561700">	in exponential notation, the raised number or variable that indicates how many times the base is being multiplied</meaning></definition>
+<definition id="fs-id2561704"><term>exponential notation</term><meaning id="fs-id1902235">	a shorthand method of writing products of the same factor</meaning></definition>
+<definition id="fs-id1902238"><term>formula</term><meaning id="fs-id1555727">	an equation expressing a relationship between constant and variable quantities</meaning></definition>
+<definition id="fs-id1555730"><term>identity property of addition</term><meaning id="fs-id1555733">	there is a unique number, called the additive identity, 0, which, when added to a number, results in the original number; in symbols,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mi>a</m:mi>
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id2534082"><term>identity property of multiplication</term><meaning id="fs-id2254362"> 	there is a unique number, called the multiplicative identity, 1, which, when multiplied by a number, results in the original number; in symbols,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mi>a</m:mi>
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id1458043"><term>integers</term><meaning id="fs-id2621155">	the set consisting of the natural numbers, their opposites, and 0:<m:math>
+ <m:mrow>
+  <m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mo>…</m:mo><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,…</m:mo>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id1462303"><term>inverse property of addition</term><meaning id="fs-id1498565">		for every real number<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>there is a unique number, called the additive inverse (or opposite), denoted<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>which, when added to the original number, results in the additive identity, 0; in symbols,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>a</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id2822288"><term>inverse property of multiplication</term><meaning id="fs-id2709599"> 	for every non-zero real number<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>there is a unique number, called the multiplicative inverse (or reciprocal), denoted<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>a</m:mi>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>which, when multiplied by the original number, results in the multiplicative identity, 1; in symbols,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>a</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id1964411"><term>irrational numbers</term><meaning id="fs-id1964415">	the set of all numbers that are not rational; they cannot be written as either a terminating or repeating decimal; they cannot be expressed as a fraction of two integers</meaning></definition>
+<definition id="fs-id2189573"><term>natural numbers</term><meaning id="fs-id2189576">	the set of counting numbers:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,…</m:mo>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id2627736"><term>order of operations</term><meaning id="fs-id2990051">	a set of rules governing how mathematical expressions are to be evaluated, assigning priorities to operations</meaning></definition>
+<definition id="fs-id2990055"><term>rational numbers</term><meaning id="fs-id3579348">	the set of all numbers of the form<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mfrac>
+   <m:mi>m</m:mi>
+   <m:mi>n</m:mi>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>where<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>m</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>are integers and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>≠</m:mo><m:mn>0.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>Any rational number may be written as a fraction or a terminating or repeating decimal.</meaning></definition>
+<definition id="fs-id1902091"><term>real number line</term><meaning id="fs-id1902094">	a horizontal line used to represent the real numbers. An arbitrary fixed point is chosen to represent 0; positive numbers lie to the right of 0 and negative numbers to the left.</meaning></definition>
+<definition id="fs-id1862580"><term>real numbers</term><meaning id="fs-id1862583">	the sets of rational numbers and irrational numbers taken together</meaning></definition>
+<definition id="fs-id1676080"><term>variable</term><meaning id="fs-id1676084">	a quantity that may change value</meaning></definition>
+<definition id="fs-id1676087"><term>whole numbers</term><meaning id="fs-id2611034">	the set consisting of 0 plus the natural numbers:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,…</m:mo>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</meaning></definition>
+</glossary>
+</document>
