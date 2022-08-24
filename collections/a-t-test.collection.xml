@@ -1,63 +1,23 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="OpenStax Larissa">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
-  <md:content-id>col11794</md:content-id>
-  <md:title>MathML Test Plus Batch Test</md:title>
-
-
-  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
-  <md:language>en</md:language>
-
-
-
-
-
-
-
-
-
-  <md:uuid>27310566-8642-41db-b7cb-606dd50ca0f6</md:uuid>
-<md:slug>a-t-test</md:slug>
-</metadata>
-
+    <md:content-id>col11794</md:content-id>
+    <md:title>MathML Test Plus Batch Test</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>27310566-8642-41db-b7cb-606dd50ca0f6</md:uuid>
+    <md:slug>a-t-test</md:slug>
+  </metadata>
   <col:content>
-
-
-
-      <col:subcollection>
-        <md:title>Chapter MathML Test</md:title>
-
-
-
-
-        <col:content>
-
-
-      <col:module document="m55627"/>
-
-
-
-
-      <col:module document="m55631"/>
-
-
-
-
-      <col:module document="m55624"/>
-
-
-
-
-      <col:module document="m55630"/>
-
-
-
-
-      <col:module document="m55622"/>
-
-
-
-        </col:content>
-      </col:subcollection>
-
+    <col:subcollection>
+      <md:title>Chapter MathML Test</md:title>
+      <col:content>
+        <col:module document="m55627"/>
+        <col:module document="m55631"/>
+        <col:module document="m55624"/>
+        <col:module document="m55630"/>
+        <col:module document="m55622"/>
+      </col:content>
+    </col:subcollection>
   </col:content>
 </col:collection>
